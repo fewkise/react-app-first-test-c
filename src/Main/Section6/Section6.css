@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+.section-six {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    height: auto;
+    row-gap: 80px;
+    .deg {
+        display: flex;
+        align-self: flex-start;
+        h4 {
+            font-size: 50px;
+            font-weight: 400;
+        }
+    }
+    .cards {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 20px;
+            width: 100%;
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                height: auto;
+                row-gap: 20px;
+                p {
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+.section-five {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    height: auto;
+    row-gap: 80px;
+    h3 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
