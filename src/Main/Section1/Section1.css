@@ -30,6 +30,11 @@
         flex-direction: column;
         ul:nth-child(1){
             width: 70%;
+            height: auto;
+            row-gap: 20px;
+            h1 {
+                font-weight: 400;
+            }
             li:nth-child(1){
                 font-size: 35px;
                 
@@ -40,6 +45,12 @@
             li:nth-child(3){
                 font-size: 35px;
                 color: #B498F0;
+            }
+            li:nth-child(4){
+                font-size: 20px;
+            }
+            li:nth-child(5){
+                font-size: 20px;
             }
         }
         ul:nth-child(2){

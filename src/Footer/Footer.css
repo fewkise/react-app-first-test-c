@@ -1,0 +1,180 @@
+.nya {
+        background-color: #F9FAFB;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    height: auto;
+    row-gap: 150px;
+    padding-bottom: 5rem;
+    flex-direction: column;
+    a {
+    text-decoration: none;
+        color: black;
+    }
+
+    .footerTop {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #DADCDD;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 50%;
+            li {
+                list-style: none;
+            }
+        }
+    }
+    .footerBottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .footerBtmRight {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 10%;
+        }
+        .footerBtmLeft {
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+            height: auto;
+            row-gap: 20px;
+            .smolText {
+                font-size: 15px;
+                width: 70%;
+            }
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: auto;
+                width: 80%;
+                row-gap: 5px;
+                li {
+                    p{
+                    font-size: 20px;
+                    }
+                }
+                li:nth-child(1){
+                    list-style: none;
+
+                }
+            }
+        }
+    }
+    .footerMiddle {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        a {
+            font-size: 18px;
+        }
+        li {
+            list-style: none;
+        }
+
+        .middle {
+            display: grid;
+            width: auto;
+            column-gap: 150px;
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 100px;
+            ul:nth-child(4){
+                li:nth-child(1){
+                    padding: 0;
+                    a {
+                        font-size: 22px;
+                    }
+                }
+                li {
+                    padding-left: 1rem;
+                }
+            }
+            ul:nth-child(5){
+                li:nth-child(1){
+                    padding: 0;
+                    a {
+                        font-size: 22px;
+                    }
+                }
+                li {
+                    padding-left: 1rem;
+                }
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                row-gap: 10px;
+            }
+        }
+        .middleRight {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: auto;
+            column-gap: 20px;
+            cursor: pointer;
+            button:nth-child(2){
+                border-bottom: 1px solid black;
+            }
+            button {
+                background: transparent;
+                border: none;
+                transition: 0.5s;
+                cursor: pointer;
+                padding: 5px;
+                &:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+        .middleLeft {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            height: auto;
+            row-gap: 20px;
+            form {
+                display: flex;
+                width: auto;
+                column-gap: 20px;
+                input {
+                    border: none;
+                    background: transparent;
+                    border-bottom: 1px solid #DADCDD;;
+                }
+                button {
+                    padding: 5px;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    background-color: black;
+                }
+            }
+            p {
+            font-size: 20px;
+            color: black;
+            }
+        }
+    }
+}

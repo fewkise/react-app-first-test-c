@@ -6,6 +6,7 @@ import Section5 from './Section5/Section5'
 import Section6 from './Section6/Section6'
 import Section7 from './Section7/Section7'
 import Section8 from './Section8/Section8'
+import Section4 from './Section4/Section4'
 import section2Img from '../../public/IMAGE (1).png'
 import section3Img from '../../public/IMAGE (2).png'
 import section4Img from '../../public/Frame.png'
@@ -26,6 +27,7 @@ const Main = () => {
       <Section6/>
       <Section7/>
       <Section8/>
+      <Section4/>
     </div>
   )
 }

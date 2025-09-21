@@ -12,10 +12,10 @@
     justify-self: center;
     flex-direction: column;
     height: auto;
-    padding-bottom: 10rem;
+    padding-bottom: 15rem;
     background-repeat: no-repeat;
     background-size: 90%;
-    padding-top: 10rem;
+    padding-top: 15rem;
     row-gap: 20px;
     background-image: url('../../../public/123.png');
     background-position: center;
@@ -39,7 +39,6 @@
         align-items: center;
         background-color: #F5F5F5;
         justify-content: center;
-        padding: 5px;
         width: 50%;
         input {
         border: none;
@@ -49,6 +48,7 @@
         justify-content: center;
         padding: 10px;
         width: 100%;
+         background-color: #F5F5F5;
         }
     }
 }

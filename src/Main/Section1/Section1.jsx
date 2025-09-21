@@ -2,7 +2,6 @@ import React from 'react'
 import './Section1.css'
 import logoForbtn from '../../../public/Vector.png'
 import logoSecton1 from '../../../public/Group 1 (1).png'
-import arrow from '../../../public/IMAGE.png'
 const Section1 = () => {
   return (
     <div className='sec'>
@@ -21,7 +20,6 @@ const Section1 = () => {
             </ul>
             <div className="chat">
                 <p>Or chat with us</p>
-                <img className='arrow' src={arrow} alt="" />
              </div>
         </div>
         <div className="sectionRight">
